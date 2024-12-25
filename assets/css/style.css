@@ -10,6 +10,9 @@ body {
   padding: 16px;
   font-family: "Roboto", serif;
 }
+h1{
+    text-align: center;
+}
 .container {
   max-width: 1280px;
   margin: 0 auto;
@@ -18,7 +21,7 @@ body {
   justify-content: space-between;
   gap: 40px;
 }
-h1 {
+h2 {
   font-size: 25px;
   line-height: 22px;
   font-weight: 500;
@@ -135,7 +138,7 @@ h1 {
 .profile-card {
   background-color: #fff;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.226);
   text-align: center;
   padding: 20px;
   display: flex;
@@ -144,6 +147,7 @@ h1 {
   gap: 10px;
   width: 100%;
   position: relative;
+  margin-bottom: 20px;
 }
 
 .profile-card .avatar img {
